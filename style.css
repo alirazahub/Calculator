@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+}
+#answer{
+    width: 300px;
+    border-radius: 13px;
+    box-shadow:inset 5px 5px 3px
+    gray, -5px -5px 3px
+    white;
+   
+}
+.calc{
+    background: rgb((200), 200, 200);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+}
+input{
+    font-size: 30px;
+    width: 70px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 10px;
+    border:none;
+    box-shadow: 5px 5px 3px gray,
+     -5px -5px 3px white;
+    background: rgb(200, 200, 200);
+    outline: none;
+}
+input:hover{
+    box-shadow:inset 5px 5px 3px
+    gray, -5px -5px 3px
+    white;
+}
